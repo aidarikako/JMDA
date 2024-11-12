@@ -5,9 +5,7 @@ This repo is the official implementation for [Joint Mixing Data Augmentation for
 
 
 ## The overall framework of Joint Mixing Data Augmentation (JMDA)
-![image](./framework.jpg)
-
-
+![image](https://github.com/aidarikako/JMDA/blob/main/framwork.jpg))
 
 
 
