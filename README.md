@@ -40,11 +40,8 @@ python ensemble.py --dataset ntu/xsub --joint-dir work_dir/skmixf/k=K_pos --bone
 python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir work_dir/ctrgcn
 ```
 
-* We have modified the code of Skeleton MixFormer so that you can now easily adjust the value of "k" in the configuration file. For example, you can change the value of "k" in the "model_args" section of the configuration file shown below. You can also refer to this example to make similar changes in other configuration files.
-```
-# Example
-config/nturgbd-cross-subject/default.yaml
-```
+* We have modified the code of Skeleton MixFormer so that you can now easily adjust the value of "k" in the configuration file. For example, you can change the value of "k" in the "model_args" section of [this file](https://github.com/aidarikako/JMDA/blob/main/Skeleton_mixformer/config/nturgbd-cross-subject/default.yaml). You can also refer to this example to make similar changes in other configuration files for Skeleton MixFormer.
+
 
 ## Results
 
