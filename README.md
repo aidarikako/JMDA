@@ -1,5 +1,10 @@
 # [TOMM 2024] Joint Mixing Data Augmentation for Skeleton-based Action Recognition
-The official implementation code for "Joint Mixing Data Augmentation for Skeleton-based Action Recognition"
+
+This repo is the official implementation for [Joint Mixing Data Augmentation for Skeleton-based Action Recognition]([https://markdown.com.cn](https://dl.acm.org/doi/10.1145/3700878)). The paper is accepted to ACM Transactions on Multimedia Computing, Communications and Applications 2024.
+
+
+
+
 
 
 
