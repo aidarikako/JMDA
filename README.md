@@ -59,6 +59,10 @@ python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir wor
 | **Skeleton MixFormer(6s) + JMDA**           | **93.7(+0.5)**      | 97.2    | **90.9(+0.7)**   | **91.9(+0.4)**   |
 
 
+### Pretrained Models
+
+- The pretrained models can be found [here](https://drive.google.com/drive/folders/1uKl08UQ0a-XG93Fw5zy6ZYMcNeuY1Gx5?usp=drive_link).
+
 ## Acknowledgements
 
 This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN/tree/main) and [Skeleton MixFormer](https://github.com/ElricXin/Skeleton-MixFormer). We appreciate the contributions of the original authors.
