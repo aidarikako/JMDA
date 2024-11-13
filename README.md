@@ -47,8 +47,6 @@ python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir wor
 
 |  Method              |  NTU RGB+D 60  X-Sub(%) | NTU RGB+D 60  X-View(%) | NTU RGB+D 120  X-Sub(%) | NTU RGB+D 120  X-Set(%) |
 |-------------------|-----------|----------|--------|--------|
-| 2s-AGCN    | 88.5     | 95.1     | 82.9   | 84.9   |   
-| **2s-AGCN + JMDA**           | **89.0(+0.5)**      | **95.9(+0.8)**    | **85.7(+2.8)**   | **87.4(+2.5)**   |  
 |  CTR-GCN    |  92.4     |  96.8     | 88.9   |  90.6  |      
 | **CTR-GCN + JMDA**           | **92.9(+0.5)**      | 96.6(-0.2)    | **89.2(+0.3)**   | **90.9(+0.3)**   | 
 |   Skeleton MixFormer(3s)   |  92.6     |  96.9     | 89.8   |  91.2 |         
