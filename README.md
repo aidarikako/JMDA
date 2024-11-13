@@ -1,5 +1,9 @@
 # [TOMM 2024] Joint Mixing Data Augmentation for Skeleton-based Action Recognition
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/joint-mixing-data-augmentation-for-skeleton/skeleton-based-action-recognition-on-ntu-rgbd-1)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd-1?p=joint-mixing-data-augmentation-for-skeleton)
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/joint-mixing-data-augmentation-for-skeleton/skeleton-based-action-recognition-on-ntu-rgbd)](https://paperswithcode.com/sota/skeleton-based-action-recognition-on-ntu-rgbd?p=joint-mixing-data-augmentation-for-skeleton)
+
 This repo is the official implementation for [Joint Mixing Data Augmentation for Skeleton-based Action Recognition](https://dl.acm.org/doi/10.1145/3700878). The paper is accepted to ACM Transactions on Multimedia Computing, Communications and Applications 2024.
 
 
@@ -25,7 +29,7 @@ python ensemble.py --dataset ntu/xsub --joint-dir work_dir/ctrgcn/joint --bone-d
 # Example: training SKMIXF on NTU RGB+D 60 cross subject
 python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir work_dir/skmixf 
 
-# Example: ensemble four modalities of SKMIXF on NTU RGB+D 60 cross subject
+# Example: ensemble six modalities of SKMIXF on NTU RGB+D 60 cross subject
 python ensemble.py --dataset ntu/xsub --joint-dir work_dir/skmixf/k=K_pos --bone-dir work_dir/skmixf/k=1_pos \
 --joint-k2-dir work_dir/skmixf/k=2_pos --joint-motion-dir work_dir/skmixf/k=K_vel --bone-motion-dir work_dir/skmixf/k=1_vel --joint-motion-k2-dir work_dir/skmixf/k=2_vel
 ```
