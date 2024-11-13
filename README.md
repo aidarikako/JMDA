@@ -59,9 +59,9 @@ python main.py --config config/nturgbd-cross-subject/default.yaml --work-dir wor
 | **Skeleton MixFormer(6s) + JMDA**           | **93.7(+0.5)**      | 97.2    | **90.9(+0.7)**   | **91.9(+0.4)**   |
 
 
-### Pretrained Models
+## Pretrained Models
 
-- The pretrained models can be found [here](https://drive.google.com/drive/folders/1uKl08UQ0a-XG93Fw5zy6ZYMcNeuY1Gx5?usp=drive_link).
+The pretrained models can be found [here](https://drive.google.com/drive/folders/1uKl08UQ0a-XG93Fw5zy6ZYMcNeuY1Gx5?usp=drive_link).
 
 ## Acknowledgements
 
