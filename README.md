@@ -69,7 +69,7 @@ This repo is based on [CTR-GCN](https://github.com/Uason-Chen/CTR-GCN/tree/main)
 
 
 
-# Citation
+## Citation
 If you find this repo helpful, please consider citing:
 
 ```
