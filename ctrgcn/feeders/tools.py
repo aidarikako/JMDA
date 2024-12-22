@@ -22,16 +22,6 @@ def resize_window_torch(data, window,cropped_length):
     data = torch.tensor(data, dtype=torch.float)
     return data
 
-def align_two_data(data1, data2):
-    valid_frame_num1 = np.sum(data1.sum(0).sum(-1).sum(-1) != 0)
-    valid_frame_num2 = np.sum(data2.sum(0).sum(-1).sum(-1) != 0)
-    data1 = data1[:, :valid_frame_num1, :, :]
-    data2 = data2[:, :valid_frame_num2, :, :]
-    if valid_frame_num1 >= valid_frame_num2:
-        data2 = resize_window(data2,valid_frame_num1,valid_frame_num2)
-    else:
-        data1 = resize_window(data1,valid_frame_num2,valid_frame_num1)
-    return data1, data2
 
 def get_begin_end(data):
     C, T, V, M = data.shape
